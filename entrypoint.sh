@@ -46,6 +46,7 @@ echo "    - allow_forks = $INPUT_ALLOW_FORKS"
 echo "    - user_name = $INPUT_USER_NAME"
 echo "    - user_email = $INPUT_USER_EMAIL"
 echo "    - push_token = $INPUT_PUSH_TOKEN = ${!INPUT_PUSH_TOKEN}"
+echo "    - command = $INPUT_COMMAND
 echo
 
 if [[ -z "${!INPUT_PUSH_TOKEN}" ]]; then
